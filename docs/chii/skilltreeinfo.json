@@ -124,6 +124,116 @@
         }
       }
     },
+      "CrowFall": {
+      "Name": "Crow Fall",
+      "DefaultLevel": 1,
+      "ID": 1,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_ScareClow.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_ScareClow.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 1,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 11,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 21,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "Capture-CrowFall",
+        "LifeDrain"
+      ]
+    },
+    "Capture-CrowFall": {
+      "Visible": false,
+      "Name": "Capture [Crow Fall]",
+      "ID": 2,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_DarkBlood_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Shoot a powerful energy bullet that attacks the enemies in front.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_ScareClow_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [159%]\nSuper armor destroyed: [109%]\n\n[Attributes: Additional Attacks]\nDamage: [159%], [478%]\nSuper armor destroyed: [109%], [328%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explode in spe",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [174%]\nSuper Armor Destruction Amount: [119%]\n\n[Attributes: Additional Attacks]\nDamage: [174%], [521%]\nSuper armor destroyed: [119%], [358%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explo",
+          "RequiredLevel": 26,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [189%]\nSuper armor destroyed amount: [137%]\n\n[Attributes: Additional Attacks]\nDamage: [189%], [568%]\nSuper Armor Destruction Amount: [137%], [412%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode an",
+          "RequiredLevel": 31,
+          "RequiredSP": 1
+        }
+      }
+    },
+    "LifeDrain": {
+      "Visible": false,
+      "Name": "Life Drain",
+      "ID": 3,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_ScareClow_B.png",
+      "Levels": {
+        "0": {
+          "Description": "Shoot continuously at enemies knocked into the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_ScareClow_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Attributes: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Attribute Information: General]\nBuff Effect: Recovers SG [12] per hit\nDebuff effect: Bleeding for 5 seconds [2%]\n\nBleeding debuff is added when the last blow is successful.\nYou can also receive SG.\n\n[manual]\nMouse: After attack (left click) x2",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [116%]\nSuper armor destroyed amount: [80%]\n\n[Attributes: Additional Attacks]\nDamage: [116%], [347%]\nSuper armor destroyed: [80%], [239%]\n\n[Attribute Information: General]\nBuff Effect: Recovers SG [18] per hit\nDebuff effect: Bleeding for 5 seconds [3%]\n\nBleeding debuff is added when the last blow is successful.\nYou can also receive SG.\n\n[manual]\nMouse: After attack (left click) x2",
+          "RequiredLevel": 26,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [133%]\nSuper armor destroyed amount: [92%]\n\n[Attributes: Additional Attacks]\nDamage: [133%], [399%]\nSuper armor destroyed: [92%], [275%]\n\n[Attribute Information: General]\nBuff Effect: Recovers SG [25] per hit\nDebuff effect: Bleeding for 5 seconds [4%]\n\nBleeding debuff is added when the last blow is successful.\nYou can also receive SG.\n\n[manual]\nMouse: After attack (left click) x2",
+          "RequiredLevel": 31,
+          "RequiredSP": 2
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
