@@ -30,28 +30,28 @@
           }
         },
         "1": {
-          "Effect": "",
-          "RequiredLevel": 0,
-          "RequiredSP": 0
+          "Effect": "Damage: 1678%\nSA Damage: 1721%\nSG Cost: 75\nCooldown: 45 seconds",
+          "RequiredLevel": 57,
+          "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
-          "RequiredLevel": 4,
+          "Effect": "Damage: 1761%\nSA Damage: 1808%\nSG Cost: 75\nCooldown: 45 seconds",
+          "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
-          "RequiredLevel": 6,
+          "Effect": "Damage: 1971%\nSA Damage: 2023%\nSG Cost: 75\nCooldown: 45 seconds",
+          "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
-          "RequiredLevel": 10,
+          "Effect": "Damage: 2181%\nSA Damage: 2238%\nSG Cost: 75\nCooldown: 45 seconds",
+          "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
-          "RequiredLevel": 13,
+          "Effect": "Damage: 2517%\nSA Damage: 2582%\nSG Cost: 75\nCooldown: 45 seconds",
+          "RequiredLevel": 60,
           "RequiredSP": 3
         }
       },
