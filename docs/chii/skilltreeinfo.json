@@ -322,6 +322,7 @@
       ]
     },
 	"Charging": {
+      "Visible": false,
 	"Name": "Charging",
 	"DefaultLevel": 1,
 	"ID": 9,
