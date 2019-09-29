@@ -741,7 +741,7 @@
         }
       },
       "Extensions": [
-        "Capture-GhostSong",
+        "Capture-GhostSong"
       ]
     },
     "Capture-GhostSong": {
@@ -818,7 +818,7 @@
         }
       },
       "Extensions": [
-        "IncreasedStrikes",
+        "IncreasedStrikes"
       ]
     },
     "IncreasedStrikes": {
@@ -895,7 +895,7 @@
         }
       },
       "Extensions": [
-        "Capture-CatRage",
+        "Capture-CatRage"
       ]
     },
     "Capture-CatRage": {
