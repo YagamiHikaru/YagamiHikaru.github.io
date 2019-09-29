@@ -88,7 +88,7 @@
         "3": {
           "Effect": "[Attributes: Base Attack]\nDamage: [189%]\nSuper armor destroyed amount: [137%]\n\n[Attributes: Additional Attacks]\nDamage: [189%], [568%]\nSuper Armor Destruction Amount: [137%], [412%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode an",
           "RequiredLevel": 23,
-          "RequiredSP": 1
+          "RequiredSP": 2
         }
       }
     },
@@ -127,7 +127,7 @@
       "CrowFall": {
       "Name": "Crow Fall",
       "DefaultLevel": 1,
-      "ID": 1,
+      "ID": 4,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_OverturnGround.png",
       "Levels": {
         "0": {
@@ -173,7 +173,7 @@
     "Capture-CrowFall": {
       "Visible": false,
       "Name": "Capture [Crow Fall]",
-      "ID": 2,
+      "ID": 5,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_DarkBlood_A.png",
       "Levels": {
         "0": {
@@ -198,14 +198,14 @@
         "3": {
           "Effect": "[Attributes: Base Attack]\nDamage: [189%]\nSuper armor destroyed amount: [137%]\n\n[Attributes: Additional Attacks]\nDamage: [189%], [568%]\nSuper Armor Destruction Amount: [137%], [412%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode an",
           "RequiredLevel": 31,
-          "RequiredSP": 1
+          "RequiredSP": 2
         }
       }
     },
     "LifeDrain": {
       "Visible": false,
       "Name": "Life Drain",
-      "ID": 3,
+      "ID": 6,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_OverturnGround_B.png",
       "Levels": {
         "0": {
@@ -234,10 +234,775 @@
         }
       }
     },
+	"FelineHunt": {
+	"Name": "Feline Hunt",
+	"DefaultLevel": 1,
+	"ID": 7,
+	"Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_ThrustArrow.png",
+	"Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_ThrustArrow.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 1,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 5,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 9,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 13,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 17,
+          "RequiredSP": 3
+        }
+      }
+    },
+	"LynxBlow": {
+	"Name": "Lynx Blow",
+	"DefaultLevel": 1,
+	"ID": 8,
+	"Icon": "../assets/skillicons/DesperRoar/B_Skill_AllegroSweep.png",
+	"Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/Icon_DesperRoar_Skill_AllegroSweep.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 4,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 12,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 20,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "Charging"
+      ]
+    },
+	"Charging": {
+	"Name": "Charging",
+	"DefaultLevel": 1,
+	"ID": 9,
+	"Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_AllegroSweep_A.png",
+	"Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_AllegroSweep_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 20,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 25,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 30,
+          "RequiredSP": 2
+        }
+      }
+    },
+	"BloodEnrage": {
+	"Name": "Blood Enrage",
+	"DefaultLevel": 1,
+	"ID": 10,
+	"Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_SoulChange.png",
+	"Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_SoulChange.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 6,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 14,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 18,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 22,
+          "RequiredSP": 3
+        }
+      }
+    },
+      "PredatorCarving": {
+      "Name": "Predator's Carving",
+      "DefaultLevel": 1,
+      "ID": 11,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_SeizeField.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_SeizeField.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 8,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 12,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 16,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 24,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "Capture-Predator",
+        "Fang"
+      ]
+    },
+    "Capture-Predator": {
+      "Visible": false,
+      "Name": "Capture [Predator]",
+      "ID": 12,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_DarkBlood_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Shoot a powerful energy bullet that attacks the enemies in front.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_SeizeField_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [159%]\nSuper armor destroyed: [109%]\n\n[Attributes: Additional Attacks]\nDamage: [159%], [478%]\nSuper armor destroyed: [109%], [328%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explode in spe",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [174%]\nSuper Armor Destruction Amount: [119%]\n\n[Attributes: Additional Attacks]\nDamage: [174%], [521%]\nSuper armor destroyed: [119%], [358%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explo",
+          "RequiredLevel": 29,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [189%]\nSuper armor destroyed amount: [137%]\n\n[Attributes: Additional Attacks]\nDamage: [189%], [568%]\nSuper Armor Destruction Amount: [137%], [412%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode an",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "Fang": {
+      "Visible": false,
+      "Name": "Fang",
+      "ID": 13,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_SeizeField_B.png",
+      "Levels": {
+        "0": {
+          "Description": "Shoot continuously at enemies knocked into the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_SeizeField_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Attributes: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Attribute Information: General]\nBuff Effect: Recovers SG [12] per hit\nDebuff effect: Bleeding for 5 seconds [2%]\n\nBleeding debuff is added when the last blow is successful.\nYou can also receive SG.\n\n[manual]\nMouse: After attack (left click) x2",
+          "RequiredLevel": 24,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [116%]\nSuper armor destroyed amount: [80%]\n\n[Attributes: Additional Attacks]\nDamage: [116%], [347%]\nSuper armor destroyed: [80%], [239%]\n\n[Attribute Information: General]\nBuff Effect: Recovers SG [18] per hit\nDebuff effect: Bleeding for 5 seconds [3%]\n\nBleeding debuff is added when the last blow is successful.\nYou can also receive SG.\n\n[manual]\nMouse: After attack (left click) x2",
+          "RequiredLevel": 29,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [133%]\nSuper armor destroyed amount: [92%]\n\n[Attributes: Additional Attacks]\nDamage: [133%], [399%]\nSuper armor destroyed: [92%], [275%]\n\n[Attribute Information: General]\nBuff Effect: Recovers SG [25] per hit\nDebuff effect: Bleeding for 5 seconds [4%]\n\nBleeding debuff is added when the last blow is successful.\nYou can also receive SG.\n\n[manual]\nMouse: After attack (left click) x2",
+          "RequiredLevel": 34,
+          "RequiredSP": 2
+        }
+      }
+    },
+      "CrowFlight": {
+      "Name": "Crow Flight",
+      "DefaultLevel": 1,
+      "ID": 14,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_PeregrineFalcon.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_PeregrineFalcon.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 30,
+          "RequiredSP": 3
+        }
+      }
+    },
+      "UndermoonLeap": {
+      "Name": "Undermoon Leap",
+      "DefaultLevel": 1,
+      "ID": 15,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_MoonStep.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_MoonStep.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 13,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 18,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 23,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 28,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 33,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "PrecisionStrikes",
+        "Lightning"
+      ]
+    },
+    "PrecisionStrikes": {
+      "Visible": false,
+      "Name": "Precision Strikes",
+      "ID": 16,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_MoonStep_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Shoot a powerful energy bullet that attacks the enemies in front.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_MoonStep_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [159%]\nSuper armor destroyed: [109%]\n\n[Attributes: Additional Attacks]\nDamage: [159%], [478%]\nSuper armor destroyed: [109%], [328%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explode in spe",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [174%]\nSuper Armor Destruction Amount: [119%]\n\n[Attributes: Additional Attacks]\nDamage: [174%], [521%]\nSuper armor destroyed: [119%], [358%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explo",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [189%]\nSuper armor destroyed amount: [137%]\n\n[Attributes: Additional Attacks]\nDamage: [189%], [568%]\nSuper Armor Destruction Amount: [137%], [412%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode an",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "Lightning": {
+      "Visible": false,
+      "Name": "Lightning",
+      "ID": 17,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_MoonStep_B.png",
+      "Levels": {
+        "0": {
+          "Description": "Shoot continuously at enemies knocked into the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_MoonStep_B.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Attributes: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Attribute Information: General]\nBuff Effect: Recovers SG [12] per hit\nDebuff effect: Bleeding for 5 seconds [2%]\n\nBleeding debuff is added when the last blow is successful.\nYou can also receive SG.\n\n[manual]\nMouse: After attack (left click) x2",
+          "RequiredLevel": 33,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [116%]\nSuper armor destroyed amount: [80%]\n\n[Attributes: Additional Attacks]\nDamage: [116%], [347%]\nSuper armor destroyed: [80%], [239%]\n\n[Attribute Information: General]\nBuff Effect: Recovers SG [18] per hit\nDebuff effect: Bleeding for 5 seconds [3%]\n\nBleeding debuff is added when the last blow is successful.\nYou can also receive SG.\n\n[manual]\nMouse: After attack (left click) x2",
+          "RequiredLevel": 38,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [133%]\nSuper armor destroyed amount: [92%]\n\n[Attributes: Additional Attacks]\nDamage: [133%], [399%]\nSuper armor destroyed: [92%], [275%]\n\n[Attribute Information: General]\nBuff Effect: Recovers SG [25] per hit\nDebuff effect: Bleeding for 5 seconds [4%]\n\nBleeding debuff is added when the last blow is successful.\nYou can also receive SG.\n\n[manual]\nMouse: After attack (left click) x2",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        }
+      }
+    },
+      "PantherStrike": {
+      "Name": "Panther Strike",
+      "DefaultLevel": 1,
+      "ID": 18,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_GrownCrevasse.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_GrownCrevasse.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 17,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 22,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 27,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 32,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 37,
+          "RequiredSP": 3
+        }
+      }
+    },
+      "GhostRequiem": {
+      "Name": "Ghost Requiem",
+      "DefaultLevel": 1,
+      "ID": 19,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_AccelerateGrinder.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_AccelearateGrinder.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 21,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 26,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 31,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 41,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "Capture-GhostSong",
+      ]
+    },
+    "Capture-GhostSong": {
+      "Visible": false,
+      "Name": "Capture [Ghost Song]",
+      "ID": 20,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_DarkBlood_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Shoot a powerful energy bullet that attacks the enemies in front.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_AccelearateGrinder_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [159%]\nSuper armor destroyed: [109%]\n\n[Attributes: Additional Attacks]\nDamage: [159%], [478%]\nSuper armor destroyed: [109%], [328%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explode in spe",
+          "RequiredLevel": 41,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [174%]\nSuper Armor Destruction Amount: [119%]\n\n[Attributes: Additional Attacks]\nDamage: [174%], [521%]\nSuper armor destroyed: [119%], [358%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explo",
+          "RequiredLevel": 46,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [189%]\nSuper armor destroyed amount: [137%]\n\n[Attributes: Additional Attacks]\nDamage: [189%], [568%]\nSuper Armor Destruction Amount: [137%], [412%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode an",
+          "RequiredLevel": 51,
+          "RequiredSP": 2
+        }
+      }
+    },
+      "WindBlastStorm": {
+      "Name": "Wind Blast Storm",
+      "DefaultLevel": 1,
+      "ID": 21,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_AssassinateParty.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_AssasinateParty.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 28,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 32,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 36,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 44,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "IncreasedStrikes",
+      ]
+    },
+    "IncreasedStrikes": {
+      "Visible": false,
+      "Name": "Increased strikes",
+      "ID": 22,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_AssassinateParty_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Shoot a powerful energy bullet that attacks the enemies in front.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_AssasinateParty_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [159%]\nSuper armor destroyed: [109%]\n\n[Attributes: Additional Attacks]\nDamage: [159%], [478%]\nSuper armor destroyed: [109%], [328%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explode in spe",
+          "RequiredLevel": 44,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [174%]\nSuper Armor Destruction Amount: [119%]\n\n[Attributes: Additional Attacks]\nDamage: [174%], [521%]\nSuper armor destroyed: [119%], [358%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explo",
+          "RequiredLevel": 49,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [189%]\nSuper armor destroyed amount: [137%]\n\n[Attributes: Additional Attacks]\nDamage: [189%], [568%]\nSuper Armor Destruction Amount: [137%], [412%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode an",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+      "PredatorAnger": {
+      "Name": "Predator's Anger",
+      "DefaultLevel": 1,
+      "ID": 23,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_Thunderbolt.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_Thunderbolt.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 34,
+          "RequiredSP": 0
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 37,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 40,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 43,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 46,
+          "RequiredSP": 3
+        }
+      },
+      "Extensions": [
+        "Capture-CatRage",
+      ]
+    },
+    "Capture-CatRage": {
+      "Visible": false,
+      "Name": "Capture [Cat Rage]",
+      "ID": 24,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_DarkBlood_A.png",
+      "Levels": {
+        "0": {
+          "Description": "Shoot a powerful energy bullet that attacks the enemies in front.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_Thunderbolt_A.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [159%]\nSuper armor destroyed: [109%]\n\n[Attributes: Additional Attacks]\nDamage: [159%], [478%]\nSuper armor destroyed: [109%], [328%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explode in spe",
+          "RequiredLevel": 46,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [174%]\nSuper Armor Destruction Amount: [119%]\n\n[Attributes: Additional Attacks]\nDamage: [174%], [521%]\nSuper armor destroyed: [119%], [358%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode and explo",
+          "RequiredLevel": 50,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Attributes: Base Attack]\nDamage: [189%]\nSuper armor destroyed amount: [137%]\n\n[Attributes: Additional Attacks]\nDamage: [189%], [568%]\nSuper Armor Destruction Amount: [137%], [412%]\n\n[Attribute Information: General]\nBuff Effect: Increases attack speed by 5% for 15 seconds (maximum of 3 stacks)\nDebuff effect: Allows enemies to leave a debuff for 15 seconds.\nHP Consumption: 7% of current health\n\nIt consumes life to strengthen the attack with junk energy.\nThe enemy captured 'enemy capture' debuffs explode an",
+          "RequiredLevel": 54,
+          "RequiredSP": 2
+        }
+      }
+    },
+      "HuntOver": {
+      "Name": "Hunt's Over",
+      "DefaultLevel": 1,
+      "ID": 25,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_GiantKatana.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_GiantKatana.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 42,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 45,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [79%]\nSuper armor destroyed amount: [54%]\n\n[Skill Info: Additional Attacks]\nDamage: [79%], [237%]\nSuper armor destroyed: [54%], [163%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 48,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [90%]\nSuper armor destroyed amount: [62%]\n\n[Skill Info: Additional Attacks]\nDamage: [90%], [270%]\nSuper armor destroyed: [62%], [185%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 52,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [106%]\nSuper armor destroyed: [73%]\n\n[Skill Info: Additional Attacks]\nDamage: [106%], [319%]\nSuper armor destroyed: [73%], [219%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding key\n",
+          "RequiredLevel": 55,
+          "RequiredSP": 3
+        }
+      }
+    },
+      "ThePredominanceOfPredators": {
+      "Name": "The predominance of predators",
+      "DefaultLevel": 1,
+      "ID": 26,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_DevilsToy.png",
+      "Levels": {
+        "0": {
+          "Description": "Kick the enemies ahead of you, launching them to the air.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/chii/B_Skill_DevilsToy.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [64%]\nSuper armor destroyed amount: [44%]\n\n[Skill Info: Additional Attacks]\nDamage: [64%], [192%]\nSuper armor destroyed: [44%], [132%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the corresponding",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[Skill Info: Basic Attack]\nDamage: [70%]\nSuper Armor Destruction Amount: [48%]\n\n[Skill Info: Additional Attacks]\nDamage: [70%], [211%]\nSuper armor destroyed: [48%], [145%]\n\n[Skill Info: General]\nBuff: HP [3%] Recovery\nSG Consumption: [35]\nCooldown time: [7 seconds]\n\nSwipe your weapon quickly to cut forward enemies. Continuously melee by additional operations.\nAbsorbs a small amount of vitality around the last additional attack.\n\n[manual]\nKeyboard: Register in the skill quick slot and enter the correspondi",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
-      "ID": 1002,
+      "ID": 1001,
       "DefaultLevel": 1,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
       "Levels": {
@@ -295,7 +1060,7 @@
     "SpecialAbilityMastery": {
       "Passive": true,
       "DefaultLevel": 1,
-      "ID": 1001,
+      "ID": 1002,
       "Name": "Special Ability Mastery",
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_OwnAbility.png",
       "Levels": {
@@ -328,7 +1093,7 @@
     "EmergencyDodge": {
       "Passive": true,
       "Name": "Emergency Dodge",
-      "ID": 1004,
+      "ID": 1003,
       "DefaultLevel": 1,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
       "Levels": {
@@ -351,7 +1116,7 @@
     "RisingRoll": {
       "Passive": true,
       "Name": "Rising Roll",
-      "ID": 1003,
+      "ID": 1004,
       "DefaultLevel": 1,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
       "Levels": {
@@ -385,7 +1150,7 @@
       "Passive": true,
       "Name": "Dash",
       "DefaultLevel": 1,
-      "ID": 1006,
+      "ID": 1005,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
       "Levels": {
         "0": {
@@ -412,7 +1177,7 @@
     "RisingAttack": {
       "Passive": true,
       "Name": "Rising Attack",
-      "ID": 1005,
+      "ID": 1006,
       "DefaultLevel": 1,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
       "Levels": {
@@ -446,7 +1211,7 @@
       "Passive": true,
       "Name": "Dash Attack",
       "DefaultLevel": 1,
-      "ID": 1008,
+      "ID": 1007,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
       "Levels": {
         "0": {
@@ -468,7 +1233,7 @@
     "SpecialDodge": {
       "Passive": true,
       "Name": "Special Dodge",
-      "ID": 1007,
+      "ID": 1008,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
       "Levels": {
         "0": {
@@ -500,7 +1265,7 @@
     "SpecialDashAttack": {
       "Passive": true,
       "Name": "Special Dash Attack",
-      "ID": 1010,
+      "ID": 1009,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
       "Levels": {
         "0": {
@@ -519,5 +1284,92 @@
         }
       }
     }
+    "StaminaMastery": {
+      "Passive": true,
+      "Name": "Stamina Mastery",
+      "ID": 1010,
+      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
+      "Levels": {
+        "0": {
+          "Description": "Increases stamina recovery.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "Stamina Recovery: + 10%",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "Stamina Recovery: + 20%",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "Stamina Recovery: + 30%",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        },
+        "4": {
+          "Effect": "Stamina Recovery: + 40%",
+          "RequiredLevel": 25,
+          "RequiredSP": 2
+        },
+        "5": {
+          "Effect": "Stamina Recovery: + 50%",
+          "RequiredLevel": 30,
+          "RequiredSP": 3
+        }
+      }
+    },
+    "CatSwiftness": {
+      "Passive": true,
+      "Name": "Cat's Swiftness",
+      "ID": 1011,
+      "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_SGPassive.png",
+      "Levels": {
+        "0": {
+          "Description": "Increases stamina recovery.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "Stamina max [10] increase",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "Stamina Max [20] increase",
+          "RequiredLevel": 15,
+          "RequiredSP": 1
+        },
+        "3": {
+          "Effect": "Stamina Max increase [30]",
+          "RequiredLevel": 20,
+          "RequiredSP": 2
+        }
+      }
+    },
+    "TheSoulOfAspiration": {
+      "Passive": true,
+      "Name": "The Soul of Aspiration",
+      "ID": 1012,
+      "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
+      "Levels": {
+        "0": {
+          "Description": "Increases stamina recovery.",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0
+        },
+        "1": {
+          "Effect": "Recovers SG automatically at regular intervals.\nRecovers the SG when a basic attack is successful.\nRestores SG when using some attribute skills.",
+          "RequiredLevel": 10,
+          "RequiredSP": 1
+        }
+      }
+    },
   }
 }
