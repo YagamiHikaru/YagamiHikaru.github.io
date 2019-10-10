@@ -842,7 +842,8 @@
       }
     },
     "BladeShower": {
-      "Name": "巨魔之劍",
+      "Name": "劍雨",
+      "DefaultLevel": 1,
       "ID": 23,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeShower.png",
       "Levels": {
@@ -1048,10 +1049,6 @@
     "Trollsverd": {
       "Name": "巨魔之劍",
       "ID": 28,
-      "RequireClass": {
-        "CompareType": "atleast",
-        "ClassIndex": 1
-      },
       "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_Trollsverd.png",
       "Levels": {
         "0": {
