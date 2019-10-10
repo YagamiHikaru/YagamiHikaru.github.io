@@ -20,7 +20,7 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_FirstBlade.png",
       "Levels": {
         "0": {
-          "Description": "Perform a series of slashes while advancing forward. An additional strike can be used [Right-click] at the end of the skill.",
+          "Description": "快速前進，連續揮劍攻擊敵人。\n再通過額外操作，向上揮劍施展最後一擊。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵\n\n[操作方法：額外攻擊]\n滑鼠：最後攻擊之後(點擊右鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -29,27 +29,27 @@
           }
         },
         "1": {
-          "Effect": "{Basic Attack}\nDamage: 361%\nSA Damage: 194%\n{Final Slash}\nDamage: 225%\nSA Damage: 121%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[技能資訊：基本攻擊]\n傷害量：[415%]\n霸體破壞量：[223%]\n\n[技能資訊：額外攻擊]\n傷害量：[259%]\n霸體破壞量：[139%]\n\n[技能資訊：普通]\n靈魂值消耗量：[35]\n冷卻時間：[10秒]\n\n",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "{Basic Attack}\nDamage: 379%\nSA Damage: 203%\n{Final Slash}\nDamage: 237%\nSA Damage: 127%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[技能資訊：基本攻擊]\n傷害量：[436%]\n霸體破壞量：[233%]\n\n[技能資訊：額外攻擊]\n傷害量：[273%]\n霸體破壞量：[146%]\n\n[技能資訊：普通]\n靈魂值消耗量：[35]\n冷卻時間：[10秒]\n\n",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "{Basic Attack}\nDamage: 424%\nSA Damage: 228%\n{Final Slash}\nDamage: 265%\nSA Damage: 142%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[技能資訊：基本攻擊]\n傷害量：[488%]\n霸體破壞量：[262%]\n\n[技能資訊：額外攻擊]\n傷害量：[305%]\n霸體破壞量：[163%]\n\n[技能資訊：普通]\n靈魂值消耗量：[35]\n冷卻時間：[10秒]\n\n",
           "RequiredLevel": 7,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "{Basic Attack}\nDamage: 469%\nSA Damage: 252%\n{Final Slash}\nDamage: 294%\nSA Damage: 157%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[技能資訊：基本攻擊]\n傷害量：[540%]\n霸體破壞量：[290%]\n\n[技能資訊：額外攻擊]\n傷害量：[338%]\n霸體破壞量：[180%]\n\n[技能資訊：普通]\n靈魂值消耗量：[35]\n冷卻時間：[10秒]\n\n",
           "RequiredLevel": 10,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "{Basic Attack}\nDamage: 541%\nSA Damage: 290%\n{Final Slash}\nDamage: 339%\nSA Damage: 181%\nSG Cost: 55\nCooldown: 15 seconds",
+          "Effect": "[技能資訊：基本攻擊]\n傷害量：[623%]\n霸體破壞量：[334%]\n\n[技能資訊：額外攻擊]\n傷害量：[390%]\n霸體破壞量：[208%]\n\n[技能資訊：普通]\n靈魂值消耗量：[35]\n冷卻時間：[10秒]\n\n",
           "RequiredLevel": 13,
           "RequiredSP": 3
         }
@@ -65,7 +65,7 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_FirstBlade_A.png",
       "Levels": {
         "0": {
-          "Description": "The Extension strike radius becomes bigger.",
+          "Description": "在劍身中注入異能，增加攻擊範圍。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -79,12 +79,12 @@
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "{Basic Attack}\nDamage: 54%\nSA Damage: 29%\n{Final Slash}\nDamage: 33%\nSA Damage: 19%",
+          "Effect": "[特性資訊：基本攻擊]\n傷害量增加值：[101%]\n霸體破壞量增加值：[54%]\n\n[特性資訊：額外攻擊]\n額外攻擊的範圍增加。\n\n",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "{Basic Attack}\nDamage: 162%\nSA Damage: 62%\n{Final Slash}\nDamage: 101%\nSA Damage: 87%",
+          "Effect": "[特性資訊：基本攻擊]\n傷害量增加值：[302%]\n霸體破壞量增加值：[109%]\n\n[特性資訊：額外攻擊]\n額外攻擊的範圍增加。\n\n",
           "RequiredLevel": 23,
           "RequiredSP": 2
         }
@@ -842,7 +842,8 @@
       }
     },
     "BladeShower": {
-      "Name": "Blade Shower",
+      "Name": "劍雨",
+      "DefaultLevel": 1,
       "ID": 23,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeShower.png",
       "Levels": {
@@ -920,7 +921,7 @@
     },
     "FlashStep-HeavyAttack": {
       "Visible": false,
-      "Name": "Heavy Attack",
+      "Name": "重量化",
       "ID": 25,
       "RequireClass": {
         "CompareType": "atleast",
@@ -955,7 +956,7 @@
       }
     },
     "SwordFall": {
-      "Name": "Sword Fall",
+      "Name": "墜落之劍",
       "ID": 26,
       "RequireClass": {
         "CompareType": "atleast",
@@ -1001,7 +1002,7 @@
       }
     },
     "SlashingWarfare": {
-      "Name": "Slashing Warfare",
+      "Name": "猛烈之戰",
       "ID": 27,
       "RequireClass": {
         "CompareType": "atleast",
@@ -1010,7 +1011,7 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_Warfare.png",
       "Levels": {
         "0": {
-          "Description": "After rushing to make two swords cross and attacking rushing, add a rotational attack towards the back and draw enemies.",
+          "Description": "X型劈砍後, 向前突擊攻擊之後向後轉聚集敵人進行攻擊。\n\n[操作方法]\n滑鼠: 添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1019,41 +1020,67 @@
           }
         },
         "1": {
-          "Effect": "Damage: 320%\nSA Damage: 300%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [1837%]\n霸體破壞量: [956%]\n靈魂值消耗量: [30]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 330%\nSA Damage: 315%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [2161%]\n霸體破壞量: [1003%]\n靈魂值消耗量: [30]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 368%\nSA Damage: 345%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [2419%]\n霸體破壞量: [1122%]\n靈魂值消耗量: [30]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 416%\nSA Damage: 390%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [2674%]\n霸體破壞量: [1241%]\n靈魂值消耗量: [30]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 480%\nSA Damage: 450%\nSG Cost: 30\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [3087%]\n霸體破壞量: [1433%]\n靈魂值消耗量: [30]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
       }
     },
+    "Trollsverd": {
+      "Name": "巨魔之劍",
+      "ID": 28,
+      "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_Trollsverd.png",
+      "Levels": {
+        "0": {
+          "Description": "使用以靈魂能量形成的光之劍 '巨魔之劍'，對前方的敵人們進行砍殺。\n\n[操作方法]\n滑鼠: 按一次對應的技能快捷鍵",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/haru/B_Skill_Trollsverd.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[技能資訊: 斬殺攻擊]\n傷害量: [1656%]\n霸體破壞量: [1827%]\n\n[技能資訊: 後方爆發攻擊]\n傷害量: 攻撃1回 [165%]\n霸體破壞量: 攻撃1回 [182%]\n\n[技能資訊: 一般]\n靈魂值消耗量: [50]\n冷卻時間: [40秒]\n\n",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[技能資訊: 斬殺攻擊]\n傷害量: [1823%]\n霸體破壞量: [2010%]\n\n[技能資訊: 後方爆發攻擊]\n傷害量: 攻撃1回 [182%]\n霸體破壞量: 攻撃1回 [201%]\n\n[技能資訊: 一般]\n靈魂值消耗量: [50]\n冷卻時間: [40秒]\n\n",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
-      "Name": "Basic Attack Mastery",
+      "Name": "基本攻擊精通",
       "ID": 1002,
       "DefaultLevel": 1,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DefaultAttack.png",
       "Levels": {
         "0": {
-          "Description": "Attack enemies with the sword.\nYou can unlock new combo attacks as the skill level increases.",
+          "Description": "[技能資訊]\n揮動長劍，攻擊敵人。 技能等級越高，連續攻擊種類越多。攻擊時可以獲得靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1062,12 +1089,12 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[操作方法：地面]\n滑鼠：(點擊左鍵) x4\n\n[操作方法：空中]\n滑鼠：跳躍後，(點擊左鍵) x2",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "SG Gain + 20%.\nUnlock alternative attack “A”.",
+          "Effect": "靈魂值獲得量增加[20%]。\n傷害量增加[25%]。\n\n[操作方法：地面]\n滑鼠：\n[1] (點擊左鍵) x4\n[2] (點擊左鍵) x2 - (點擊右鍵) x2\n\n[操作方法：空中]\n滑鼠：跳躍後，(點擊左鍵) x2",
           "RequiredLevel": 5,
           "RequiredSP": 1,
           "Preview": {
@@ -1075,7 +1102,7 @@
           }
         },
         "3": {
-          "Effect": "SG Gain: + 70%.\nUnlock additional basic attack.",
+          "Effect": "靈魂值獲得量增加[70%]。\n傷害量增加[50%]。\n\n[操作方法：地面]\n滑鼠：\n[1] (點擊左鍵) x5\n[2] (點擊左鍵) x2 - (點擊右鍵) x2\n\n[操作方法：空中]\n滑鼠：跳躍後，(點擊左鍵) x2",
           "RequiredLevel": 10,
           "RequiredSP": 2,
           "Preview": {
@@ -1083,7 +1110,7 @@
           }
         },
         "4": {
-          "Effect": "SG Gain: + 120%\nUnlock alternative attack “B”.\nUnlock additional aerial attack.",
+          "Effect": "靈魂值獲得量增加[120%]。\n傷害量增加[75%]。\n\n[操作方法：地面]\n滑鼠：\n[1] (點擊左鍵) x5\n[2] (點擊左鍵) x2 - (點擊右鍵) x2\n[3] (點擊左鍵) x3 - (點擊右鍵) x3\n\n[操作方法：空中]\n滑鼠：跳躍後，(點擊左鍵) x3",
           "RequiredLevel": 15,
           "RequiredSP": 2,
           "Preview": {
@@ -1091,7 +1118,7 @@
           }
         },
         "5": {
-          "Effect": "SG Gain: + 200%\nUnlock alternative attack “C”.",
+          "Effect": "靈魂值獲得量增加[200%]。\n傷害量增加[100%]。\n\n[操作方法：地面]\n滑鼠：\n[1] (點擊左鍵) x5\n[2] (點擊左鍵) x2 - (點擊右鍵) x2\n[3] (點擊左鍵) x3 - (點擊右鍵) x3\n[4] (點擊左鍵) x2 - (點擊右鍵) - (點擊右鍵並前推)\n\n[操作方法：空中]\n滑鼠：跳躍後，(點擊左鍵) x3",
           "RequiredLevel": 20,
           "RequiredSP": 2,
           "Preview": {
