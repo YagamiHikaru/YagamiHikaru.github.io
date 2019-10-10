@@ -843,7 +843,6 @@
     },
     "BladeShower": {
       "Name": "劍雨",
-      "DefaultLevel": 1,
       "ID": 23,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeShower.png",
       "Levels": {
