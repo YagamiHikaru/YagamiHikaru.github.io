@@ -278,7 +278,6 @@
     },
 	"LynxBlow": {
 	"Name": "Lynx Blow",
-	"DefaultLevel": 1,
 	"ID": 8,
 	"Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_AllegroSweep.png",
 	"Levels": {
@@ -324,7 +323,6 @@
 	"Charging": {
       "Visible": false,
 	"Name": "Charging",
-	"DefaultLevel": 1,
 	"ID": 9,
 	"Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_AllegroSweep_A.png",
 	"Levels": {
@@ -356,7 +354,6 @@
     },
 	"BloodEnrage": {
 	"Name": "Blood Enrage",
-	"DefaultLevel": 1,
 	"ID": 10,
 	"Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_SoulChange.png",
 	"Levels": {
@@ -398,7 +395,6 @@
     },
       "PredatorCarving": {
       "Name": "Predator's Carving",
-      "DefaultLevel": 1,
       "ID": 11,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_SeizeField.png",
       "Levels": {
@@ -508,7 +504,6 @@
     },
       "CrowFlight": {
       "Name": "Crow Flight",
-      "DefaultLevel": 1,
       "ID": 14,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_PeregrineFalcon.png",
       "Levels": {
@@ -550,7 +545,6 @@
     },
       "UndermoonLeap": {
       "Name": "Undermoon Leap",
-      "DefaultLevel": 1,
       "ID": 15,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_MoonStep.png",
       "Levels": {
@@ -660,7 +654,6 @@
     },
       "PantherStrike": {
       "Name": "Panther Strike",
-      "DefaultLevel": 1,
       "ID": 18,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_GrownCrevasse.png",
       "Levels": {
@@ -702,7 +695,6 @@
     },
       "GhostRequiem": {
       "Name": "Ghost Requiem",
-      "DefaultLevel": 1,
       "ID": 19,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_AccelerateGrinder.png",
       "Levels": {
@@ -779,7 +771,6 @@
     },
       "WindBlastStorm": {
       "Name": "Wind Blast Storm",
-      "DefaultLevel": 1,
       "ID": 21,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_AssassinateParty.png",
       "Levels": {
@@ -856,7 +847,6 @@
     },
       "PredatorAnger": {
       "Name": "Predator's Anger",
-      "DefaultLevel": 1,
       "ID": 23,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_Thunderbolt.png",
       "Levels": {
@@ -933,7 +923,6 @@
     },
       "HuntOver": {
       "Name": "Hunt's Over",
-      "DefaultLevel": 1,
       "ID": 25,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_GiantKatana.png",
       "Levels": {
@@ -975,7 +964,6 @@
     },
       "ThePredominanceOfPredators": {
       "Name": "The predominance of predators",
-      "DefaultLevel": 1,
       "ID": 26,
       "Icon": "../assets/skillicons/DesperRoar/Icon_DesperRoar_Skill_DevilsToy.png",
       "Levels": {
