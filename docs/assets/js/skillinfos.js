@@ -8,8 +8,8 @@ const ClassOperator = {
 };
 
 const ClassIndex = {
-    一般: 0,
-    二轉: 1
+    Base: 0,
+    Upgraded: 1
 }
 
 function SkillInfo(_skilltreeCore, __id, skillName, infos) {

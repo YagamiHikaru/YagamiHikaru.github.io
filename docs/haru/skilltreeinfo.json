@@ -3,11 +3,11 @@
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Haru_Estia",
   "AvailableClass": {
     "0": {
-      "Name": "Base",
+      "Name": "一般",
       "Cover": "../assets/images/bg-haru1.png"
     },
     "1": {
-      "Name": "Upgraded",
+      "Name": "二轉",
       "Cover": "../assets/images/bg-haru2.png",
       "RequiredLevel": 57
     }
@@ -60,7 +60,7 @@
     },
     "FirstStrike-RangeIncrease": {
       "Visible": false,
-      "Name": "Range Increase",
+      "Name": "範圍增加",
       "ID": 2,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_FirstBlade_A.png",
       "Levels": {
@@ -74,7 +74,7 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性資訊]\n額外攻擊的範圍增加。\n\n",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
@@ -91,13 +91,13 @@
       }
     },
     "PierceStep": {
-      "Name": "Pierce Step",
+      "Name": "神速",
       "DefaultLevel": 1,
       "ID": 3,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_PierceStep.png",
       "Levels": {
         "0": {
-          "Description": "Perform a series of slashes while advancing forward. An additional strike can be used with an additional input.",
+          "Description": "向前方快速突擊，擊退敵人。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -106,27 +106,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 83%\nSA Damage: 330%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "[技能資訊]\n傷害量：[83%]\n霸體破壞量：[380%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]\n\n",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: 87%\nSA Damage: 347%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "[技能資訊]\n傷害量：[87%]\n霸體破壞量：[399%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]\n\n",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 97%\nSA Damage: 388%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "[技能資訊]\n傷害量：[97%]\n霸體破壞量：[446%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]\n\n",
           "RequiredLevel": 11,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 108%\nSA Damage: 429%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "[技能資訊]\n傷害量：[108%]\n霸體破壞量：[493%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]\n\n",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 124%\nSA Damage: 495%\nSG Cost: 30\nCooldown: 8 seconds",
+          "Effect": "[技能資訊]\n傷害量：[124%]\n霸體破壞量：[569%]\n靈魂值消耗量：[15]\n冷卻時間：[8秒]\n\n",
           "RequiredLevel": 21,
           "RequiredSP": 3
         }
@@ -138,12 +138,12 @@
     },
     "PierceStep-SpinningSlash": {
       "Visible": false,
-      "Name": "Pierce Step - Spinning Slash",
+      "Name": "迴旋斬",
       "ID": 4,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_PierceStep_A.png",
       "Levels": {
         "0": {
-          "Description": "Push away the enemies with a spinning slash after Pierce Step.",
+          "Description": "神速之後，用迴旋斬擊退敵人。\n\n[操作方法：額外攻擊]\n滑鼠：最後攻擊之後(點擊右鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -152,12 +152,12 @@
           }
         },
         "1": {
-          "Effect": "{Base Attack}\nDamage: +92%\nSA Damage: -381%\n{Spin Attack}\nDamage: 65%\nSA Damage: 35%\nMaximum Spin Attack: 1",
+          "Effect": "[特性資訊：基本攻擊]\n傷害量增加值：[92%]\n霸體破壞量減少值：[438%]\n\n[特性資訊：額外攻擊]\n傷害量：[65%]\n霸體破壞量：[39%]\n\n",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "{Base Attack}\nDamage: +92%\nSA Damage: -381%\n{Spin Attack}\nDamage: 216%\nSA Damage: 114%\nMaximum Spin Attack: 2",
+          "Effect": "[特性資訊：基本攻擊]\n傷害量增加值：[92%]\n霸體破壞量減少值：[438%]\n\n[特性資訊：額外攻擊]\n傷害量：[216%]\n霸體破壞量：[131%]\n\n",
           "RequiredLevel": 26,
           "RequiredSP": 1,
           "Preview": {
@@ -168,12 +168,12 @@
     },
     "PierceStep-RisingSlash": {
       "Visible": false,
-      "Name": "Pierce Step - Rising Slash",
+      "Name": "升龍斬",
       "ID": 5,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_PierceStep_B.png",
       "Levels": {
         "0": {
-          "Description": "Launch the enemies to the air after Pierce Step with a rising slash.",
+          "Description": "神速之後，用迴旋斬使敵人浮空。\n\n[操作方法：額外攻擊]\n滑鼠：最後攻擊之後(點擊右鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -182,7 +182,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: 200%\nSA Damage: 280%",
+          "Effect": "[特性資訊：額外攻擊]\n傷害量：[74%]\n霸體破壞量：[341%]\n\n",
           "RequiredLevel": 21,
           "RequiredSP": 1
         }
