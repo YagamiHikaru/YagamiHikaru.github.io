@@ -1,13 +1,13 @@
 {
-  "CharacterName": "Stella Unibell",
+  "CharacterName": "史黛菈‧優妮貝爾",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Stella_Unibell",
   "AvailableClass": {
     "0": {
-      "Name": "Base",
+      "Name": "一般",
       "Cover": "../assets/images/bg-stella1.png"
     },
     "1": {
-      "Name": "Upgraded",
+      "Name": "二轉",
       "Cover": "../assets/images/bg-stella2.png",
       "RequiredLevel": 57
     }

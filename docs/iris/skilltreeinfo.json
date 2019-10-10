@@ -1,13 +1,13 @@
 {
-  "CharacterName": "Iris Yuma",
+  "CharacterName": "伊莉絲‧悠娜",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Iris_Yuma",
   "AvailableClass": {
     "0": {
-      "Name": "Base",
+      "Name": "一般",
       "Cover": "../assets/images/bg-iris1.png"
     },
     "1": {
-      "Name": "Upgraded",
+      "Name": "二轉",
       "Cover": "../assets/images/bg-iris2.png",
       "RequiredLevel": 57
     }

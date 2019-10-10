@@ -1,13 +1,13 @@
 {
-  "CharacterName": "Lily Bloomerchen",
+  "CharacterName": "莉莉‧普露梅茜",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Lily_Bloomerchen",
   "AvailableClass": {
     "0": {
-      "Name": "Base",
+      "Name": "一般",
       "Cover": "../assets/images/bg-lily1.png"
     },
     "1": {
-      "Name": "Upgraded",
+      "Name": "二轉",
       "Cover": "../assets/images/bg-lily2.png",
       "RequiredLevel": 57
     }

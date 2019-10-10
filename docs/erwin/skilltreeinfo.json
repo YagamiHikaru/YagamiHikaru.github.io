@@ -1,13 +1,13 @@
 {
-  "CharacterName": "Erwin Arclight",
+  "CharacterName": "歐文‧阿克萊特",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Erwin_Arclight",
   "AvailableClass": {
     "0": {
-      "Name": "Base",
+      "Name": "一般",
       "Cover": "../assets/images/bg-erwin1.png"
     },
     "1": {
-      "Name": "Upgraded",
+      "Name": "二轉",
       "Cover": "../assets/images/bg-erwin2.png",
       "RequiredLevel": 57
     }
