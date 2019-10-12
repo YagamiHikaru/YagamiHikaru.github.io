@@ -1031,6 +1031,32 @@
         }
       }
     },
+    "GhostyHunt": {
+      "Name": "壓制彈",
+      "ID": 28,
+      "Icon": "../assets/skillicons/Howling/Icon_Howling_Skill_GhostyHunt.png",
+      "Levels": {
+        "0": {
+          "Description": "召喚出靈魂，對前方的敵人發射靈魂呼吸來進行攻擊。\n切換姿態後，使用時會發射雷射來攻擊。\n\n[操作方法]\n滑鼠: 按一次對應的技能快捷鍵",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/stella/B_Skill_GhostHunt.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",

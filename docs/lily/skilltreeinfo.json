@@ -1021,6 +1021,32 @@
         }
       }
     },
+    "LeashedBeast": {
+      "Name": "拴住的野獸",
+      "ID": 28,
+      "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_LeashedBeast.png",
+      "Levels": {
+        "0": {
+          "Description": "在前方召喚靈魂能量球體後，進行跳躍攻擊將球體砍爆。球體會吸引周遭的敵人，球體爆炸後將對週遭的敵人造成傷害。\n[操作方法]\n滑鼠: 按一次對應的技能快捷鍵",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/lily/B_Skill_LeashedBest.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[技能資訊: 能量陷阱攻擊]\n傷害量: 攻撃1回 [321%]\n霸體破壞量: 攻撃1回 [327%]\n\n[技能資訊: 砍殺和球體暴發攻擊]\n傷害量: 攻撃1回 [428%]\n霸體破壞量: 攻撃1回 [437%]\n\n[技能資訊: 一般]\n靈魂值消耗量: [55]\n冷卻時間: [40秒]\n\n",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[技能資訊: 能量陷阱攻擊]\n傷害量: 攻撃1回 [353%]\n霸體破壞量: 攻撃1回 [360%]\n\n[技能資訊: 砍殺和球體暴發攻擊]\n傷害量: 攻撃1回 [471%]\n霸體破壞量: 攻撃1回 [480%]\n\n[技能資訊: 一般]\n靈魂值消耗量: [55]\n冷卻時間: [40秒]\n\n",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",

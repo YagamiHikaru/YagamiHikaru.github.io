@@ -1024,6 +1024,32 @@
         }
       }
     },
+    "SwallowBullet": {
+      "Name": "燕返彈",
+      "ID": 28,
+      "Icon": "../assets/skillicons/GunJazz/Icon_GJazz_Skill_Deadline.png",
+      "Levels": {
+        "0": {
+          "Description": "對敵人發射ㄧ次貫通攻擊，並在固定區域內多次彈射的特殊彈。\n\n[操作方法]\n滑鼠: 按一次對應的技能快捷鍵",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/erwin/B_Skill_SwallowBullet.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[技能資訊: 一般攻擊]\n傷害量: 攻撃1回 [155%]\n霸體破壞量: 攻撃1回 [169%]\n\n[技能資訊: 最後攻擊]\n傷害量: [389%]\n霸體破壞量: [424%]\n\n[技能資訊: 一般]\n靈魂值消耗量: [4]\n冷卻時間: [45秒]\n\n",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[技能資訊: 一般攻擊]\n傷害量: 攻撃1回 [171%]\n霸體破壞量: 攻撃1回 [186%]\n\n[技能資訊: 最後攻擊]\n傷害量: [428%]\n霸體破壞量: [466%]\n\n[技能資訊: 一般]\n靈魂值消耗量: [4]\n冷卻時間: [45秒]\n\n",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",

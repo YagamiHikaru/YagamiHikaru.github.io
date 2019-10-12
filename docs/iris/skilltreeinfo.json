@@ -1129,6 +1129,32 @@
         }
       }
     },
+    "RapidVulcan": {
+      "Name": "急速的火神炮",
+      "ID": 28,
+      "Icon": "../assets/skillicons/HammerStol/Icon_Hamerstoll_Skill_Expocalypse.png",
+      "Levels": {
+        "0": {
+          "Description": "將槌子變成火神機關槍，對前方的敵人連續射擊一般彈和導彈。\n\n[操作方法]\n滑鼠: 按一次對應的技能快捷鍵",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/iris/B_Skill_RapidVulcan.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[技能資訊]\n傷害量: 攻撃1回 [105%]\n霸體破壞量:  攻撃1回 [133%]\n靈魂值消耗量: [60]\n冷卻時間: [40秒]\n\n",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[技能資訊]\n傷害量: 攻撃1回 [116%]\n霸體破壞量:  攻撃1回 [147%]\n靈魂值消耗量: [60]\n冷卻時間: [40秒]\n\n",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",

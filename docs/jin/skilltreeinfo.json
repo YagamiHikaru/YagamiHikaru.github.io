@@ -1057,6 +1057,32 @@
         }
       }
     },
+    "BarrettStraight": {
+      "Name": "巴雷特直拳",
+      "ID": 28,
+      "Icon": "../assets/SpritArms/SoulumSword/Icon_Sprit_Skill_BarrettStraight.png",
+      "Levels": {
+        "0": {
+          "Description": "在右邊的拳頭上聚集起靈魂能量，用全力來進行突擊。\n\n[操作方法]\n滑鼠: 按一次對應的技能快捷鍵",
+          "Effect": "",
+          "RequiredLevel": 0,
+          "RequiredSP": 0,
+          "Preview": {
+            "Video": "../assets/skillpreviews/jin/B_Skill_BarrettStraight.{{auto}}"
+          }
+        },
+        "1": {
+          "Effect": "[技能資訊: 貫通突擊攻擊]\n傷害量: 攻撃1回 [749%]\n霸體破壞量: 攻撃1回 [825%]\n\n[技能資訊: 暴發攻擊]\n傷害量: [448%]\n霸體破壞量: [494%]\n\n[技能資訊: 一般]\n靈魂值消耗量: [55]\n冷卻時間: [45秒]\n\n",
+          "RequiredLevel": 62,
+          "RequiredSP": 1
+        },
+        "2": {
+          "Effect": "[技能資訊: 貫通突擊攻擊]\n傷害量: 攻撃1回 [824%]\n霸體破壞量: 攻撃1回 [908%]\n\n[技能資訊: 暴發攻擊]\n傷害量: [493%]\n霸體破壞量: [544%]\n\n[技能資訊: 一般]\n靈魂值消耗量: [55]\n冷卻時間: [45秒]\n\n",
+          "RequiredLevel": 65,
+          "RequiredSP": 1
+        }
+      }
+    },
     "BasicAttackMastery": {
       "Passive": true,
       "Name": "Basic Attack Mastery",
