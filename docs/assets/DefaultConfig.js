@@ -55,7 +55,7 @@
                                                   (for example: the skill tree of said character is in building)
                                          reason: The reason when not enabled
             */
-            "Haru Estia": {
+            "哈露‧伊絲提亞": {
                 url: "haru",
                 selectImage: "assets/images/HaruSelect.png"
             },
