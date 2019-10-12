@@ -59,27 +59,27 @@
                 url: "haru",
                 selectImage: "assets/images/HaruSelect.png"
             },
-            "Erwin Arclight": {
+            "歐文‧阿克萊特": {
                 url: "erwin",
                 selectImage: "assets/images/ErwinSelect.png"
             },
-            "Lily Bloomerchen": {
+            "莉莉‧普露梅茜": {
                 url: "lily",
                 selectImage: "assets/images/LilySelect.png"
             },
-            "Stella Unibell": {
+            "史黛菈‧優妮貝爾": {
                 url: "stella",
                 selectImage: "assets/images/StellaSelect.png"
             },
-            "Jin Seipatsu": {
+            "金‧希帕斯": {
                 url: "jin",
                 selectImage: "assets/images/JinSelect.png"
             },
-            "Iris Yuma": {
+            "伊莉絲‧悠娜": {
                 url: "iris",
                 selectImage: "assets/images/IrisSelect.png"
             },
-            "Someone": {
+            "Chii Aruel": {
                 url: "chii",
                 selectImage: "assets/images/SomeoneSelect.png",
             }

@@ -1,13 +1,13 @@
 {
-  "CharacterName": "Jin Seipatsu",
+  "CharacterName": "金‧希帕斯",
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Jin_Seipatsu",
   "AvailableClass": {
     "0": {
-      "Name": "Base",
+      "Name": "一般",
       "Cover": "../assets/images/bg-jin1.png"
     },
     "1": {
-      "Name": "Upgraded",
+      "Name": "二轉",
       "Cover": "../assets/images/bg-jin2.png",
       "RequiredLevel": 57
     }
