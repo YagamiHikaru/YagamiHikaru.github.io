@@ -14,7 +14,7 @@
   },
   "Skills": {
     "FirstStrike": {
-      "Name": "First Strike",
+      "Name": "迅極劍技",
       "DefaultLevel": 1,
       "ID": 1,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_FirstBlade.png",
@@ -1130,11 +1130,11 @@
       "Passive": true,
       "DefaultLevel": 1,
       "ID": 1001,
-      "Name": "Special Ability Mastery",
+      "Name": "特殊能力精通",
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_OwnAbility.png",
       "Levels": {
         "0": {
-          "Description": "Launch enemies within a certain range in midair.\nWhen used midair, unleash a fast dive kick.",
+          "Description": "攻擊時可以獲得靈魂值。\n怪物等級越高，靈魂值獲得量越多。\n\n利用異能，使一定範圍內的敵人浮空並減速。在空中使用時，快速發動踢腿攻擊並落地。\n\n[操作方法：地面]\n滑鼠：(點擊右鍵)\n\n[操作方法：空中]\n滑鼠：跳躍後，(點擊右鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1143,17 +1143,17 @@
           }
         },
         "1": {
-          "Effect": "[Ground]\nDamage: 175%\nSA Break: 140%\n\n[Midair]\nDamage:229%\nSA Break: 170%\n\n[Common]\nCooldown: 10 sec",
+          "Effect": "[技能資訊：地面]\n傷害量：[175%]\n霸體破壞量：[140%]\n\n[技能資訊：空中]\n傷害量：[229%]\n霸體破壞量：[170%]\n\n[技能資訊：普通]\n冷卻時間：[10秒]\n",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "[Ground]\nDamage: 184%\nSA Break: 147%\n\n[Midair]\nDamage:241%\nSA Break: 178%\n\n[Common]\nCooldown: 10 sec\nSG Gain: + 20%",
+          "Effect": "[技能資訊：地面]\n傷害量：[184%]\n霸體破壞量：[147%]\n\n[技能資訊：空中]\n傷害量：[241%]\n霸體破壞量：[178%]\n\n[技能資訊：普通]\n冷卻時間：[10秒]\n攻擊時靈魂值獲得量增加20%。\n",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Ground]\nDamage: 206%\nSA Break: 165%\n\n[Midair]\nDamage:270%\nSA Break: 200%\n\n[Common]\nCooldown: 10 sec\nSG Gain: + 70%",
+          "Effect": "[技能資訊：地面]\n傷害量：[206%]\n霸體破壞量：[165%]\n\n[技能資訊：空中]\n傷害量：[270%]\n霸體破壞量：[200%]\n\n\n[技能資訊：普通]\n冷卻時間：[10秒]\n攻擊時靈魂值獲得量增加70%。\n",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }

@@ -172,7 +172,7 @@
       "Icon": "../assets/skillicons/Mistscythe/Icon_MCythe_Skill_GrimCountDown.png",
       "Levels": {
         "0": {
-          "Description": "After doing a rotation slash, cut the front enemies alongside the summoned Grim Reaper.",
+          "Description": "旋轉身體擊退敵人的同時，召喚出死神，揮舞鐮刀斬擊敵人。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
@@ -180,27 +180,27 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[技能資訊]\n傷害量：[358%]\n霸體破壞量：[201%]\n靈魂值消耗量：[35]\n冷卻時間：[15秒]\n\n",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[技能資訊]\n傷害量：[394%]\n霸體破壞量：[222%]\n靈魂值消耗量：[35]\n冷卻時間：[15秒]\n\n",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[技能資訊]\n傷害量：[442%]\n霸體破壞量：[248%]\n靈魂值消耗量：[35]\n冷卻時間：[15秒]\n\n",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "",
+          "Effect": "[技能資訊]\n傷害量：[503%]\n霸體破壞量：[283%]\n靈魂值消耗量：[35]\n冷卻時間：[15秒]\n\n",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "",
+          "Effect": "[技能資訊]\n傷害量：[594%]\n霸體破壞量：[334%]\n靈魂值消耗量：[35]\n冷卻時間：[15秒]\n\n",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
@@ -211,12 +211,12 @@
     },
     "GrimCountdown-Lifesteal": {
       "Visible": false,
-      "Name": "Lifesteal",
+      "Name": "生命虹吸",
       "ID": 6,
       "Icon": "../assets/skillicons/Mistscythe/Icon_Mcythe_Skill_GrimCountdown_A.PNG",
       "Levels": {
         "0": {
-          "Description": "Steal HP from the afflicted enemies, and heals HP of oneself.",
+          "Description": "奪取敵人的HP，恢復自己的HP。\n該效果只對1人有效。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -225,17 +225,17 @@
           }
         },
         "1": {
-          "Effect": "",
+          "Effect": "[特性資訊]\n傷害量：[594%]\n霸體破壞量：[334%]\n吸收HP：[35%]\n\n",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "",
+          "Effect": "[特性資訊]\n傷害量：[594%]\n霸體破壞量：[334%]\n吸收HP：[45%]\n\n",
           "RequiredLevel": 25,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "",
+          "Effect": "[特性資訊]\n傷害量：[594%]\n霸體破壞量：[334%]\n吸收HP：[65%]\n\n",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
