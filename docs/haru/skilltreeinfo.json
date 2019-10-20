@@ -274,12 +274,12 @@
       }
     },
     "BladeQuake": {
-      "Name": "Blade Quake",
+      "Name": "顫慄碎片",
       "ID": 8,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeQuake.png",
       "Levels": {
         "0": {
-          "Description": "Push the sword through the ground, summoning multiple swords to deal damage.",
+          "Description": "將劍快速插入地下，召喚異能之劍，施展連續攻擊。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -288,27 +288,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 212%\nSA Damage:444%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "[技能資訊]\n傷害量： [424%]\n霸體破壞量：[532%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]\n\n",
           "RequiredLevel": 6,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 223%\nSA Damage:466%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "[技能資訊]\n傷害量：[445%]\n霸體破壞量：[559%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]\n\n",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 249%\nSA Damage:522%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "[技能資訊]\n傷害量：[497%]\n霸體破壞量：[626%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]\n\n",
           "RequiredLevel": 14,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 279%\nSA Damage:577%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "[技能資訊]\n傷害量：[276%]\n霸體破壞量：[577%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]\n\n",
           "RequiredLevel": 18,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 318%\nSA Damage:666%\nSG Cost: 45\nCooldown: 16 seconds",
+          "Effect": "[技能資訊]\n傷害量：[318%]\n霸體破壞量：[666%]\n靈魂值消耗量：[45]\n冷卻時間：[16秒]\n\n",
           "RequiredLevel": 22,
           "RequiredSP": 3
         }
@@ -319,12 +319,12 @@
     },
     "BladeQuake-KnockOut": {
       "Visible": false,
-      "Name": "Knock Out",
+      "Name": "暈眩",
       "ID": 9,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeQuake_A.png",
       "Levels": {
         "0": {
-          "Description": "All enemies hit by the skill will be stunned.",
+          "Description": "給命中的敵人造成眩暈效果。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -333,17 +333,17 @@
           }
         },
         "1": {
-          "Effect": "Stun Duration: 3 Seconds",
+          "Effect": "[特性資訊]\n減益效果：眩暈\n減益持續時間：[3秒]\n傷害: [763%]\n霸體破壞量增加: [958%]\n減益效果: 暈眩\n增益持續時間: [3秒]\n",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stun Duration: 4 Seconds",
+          "Effect": "[特性資訊]\n傷害增加: [914%]\n霸體破壞量增加: [1150%]\n減益效果: 暈眩\n增益持續時間: [3秒]\n\n",
           "RequiredLevel": 27,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stun Duration: 5 Seconds",
+          "Effect": "[特性資訊]\n傷害增加: [1096%]\n霸體破壞量增加: [1379%]\n減益效果: 暈眩\n增益持續時間: [3秒]\n\n",
           "RequiredLevel": 32,
           "RequiredSP": 2
         }
