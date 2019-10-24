@@ -233,12 +233,12 @@
       ]
     },
     "BlowUp": {
-      "Name": "Blow Up",
+      "Name": "能量增益",
       "ID": 7,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BlowUp.png",
       "Levels": {
         "0": {
-          "Description": "Use your special power to enhance your SG acquisition rate. All attacks that hit will be able to give additional SG.\nThe amount of SG gained will increase with monster grade/rank and the effect is applicable on up to 5 hits.",
+          "Description": "利用異能之力強化靈魂獲得能力，所有攻擊命中時，額外獲得靈魂值。\n怪物等級越高，靈魂值獲得量越多。該效果只對5人有效。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -247,27 +247,27 @@
           }
         },
         "1": {
-          "Effect": "Buff effect: 1.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n增益效果：霸體破壞量增加 [4%] , 命中時，獲得靈魂值 [1%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]\n\n",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Buff effect: 1.2% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n增益效果：霸體破壞量增加 [8%] , 命中時，獲得靈魂值 [1.2%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]\n\n",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Buff effect: 1.6% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n增益效果：霸體破壞量增加 [12%] , 命中時，獲得靈魂值 [1.6%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]\n\n",
           "RequiredLevel": 12,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Buff effect: 2.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n增益效果：霸體破壞量增加 [16%] , 命中時，獲得靈魂值 [2%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]\n\n",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Buff effect: 3.0% SG per hit\nBuff Duration: 20 seconds\nSG Cost: 80\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n增益效果：霸體破壞量增加 [20%] , 命中時，獲得靈魂值 [3%]\n增益持續時間：[50秒]\n靈魂值消耗量：[50]\n冷卻時間：[70秒]\n\n",
           "RequiredLevel": 20,
           "RequiredSP": 3
         }
