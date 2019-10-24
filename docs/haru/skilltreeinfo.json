@@ -189,13 +189,13 @@
       }
     },
     "SpinCutter": {
-      "Name": "Spin Cutter",
+      "Name": "盤旋劍",
       "DefaultLevel": 1,
       "ID": 6,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_SpinCutter.png",
       "Levels": {
         "0": {
-          "Description": "Push enemies away by performing a spinning slash.",
+          "Description": "向前躍起，施展連續旋轉攻擊，擊退敵人。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "RequiredLevel": 0,
           "RequiredSP": 0,
           "Preview": {
@@ -203,27 +203,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 178%\nSA Damage: 92%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "[技能資訊]\n傷害量：[178%]\n霸體破壞量：[92%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]\n\n",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Damage: 187%\nSA Damage: 96%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "[技能資訊]\n傷害量：[187%]\n霸體破壞量：[96%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]\n\n",
           "RequiredLevel": 5,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 209%\nSA Damage: 108%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "[技能資訊]\n傷害量：[209%]\n霸體破壞量：[108%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]\n\n",
           "RequiredLevel": 9,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 231%\nSA Damage: 119%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "[技能資訊]\n傷害量：[231%]\n霸體破壞量：[119%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]\n\n",
           "RequiredLevel": 13,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 267%\nSA Damage: 138%\nSG Cost: 35\nCooldown: 5 seconds",
+          "Effect": "[技能資訊]\n傷害量：[267%]\n霸體破壞量：[138%]\n靈魂值消耗量：[35]\n冷卻時間：[5秒]\n\n",
           "RequiredLevel": 17,
           "RequiredSP": 3
         }
@@ -350,12 +350,12 @@
       }
     },
     "BladeWall": {
-      "Name": "Blade Wall",
+      "Name": "劍之圍籬",
       "ID": 10,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeWall.png",
       "Levels": {
         "0": {
-          "Description": "Summoned swords will damage enemies and pull them towards the player.",
+          "Description": "召喚巨大的異能之劍，將敵人吸到施展者前面。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -364,39 +364,39 @@
           }
         },
         "1": {
-          "Effect": "Damage: 149%\nSA Damage: 310%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "[技能資訊]\n傷害量：[149%]\n霸體破壞量：[310%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]\n\n",
           "RequiredLevel": 8,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 157%\nSA Damage: 326%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "[技能資訊]\n傷害量：[157%]\n霸體破壞量：[326%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]\n\n",
           "RequiredLevel": 12,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 175%\nSA Damage: 364%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "[技能資訊]\n傷害量：[175%]\n霸體破壞量：[364%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]\n\n",
           "RequiredLevel": 16,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 194%\nSA Damage: 403%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "[技能資訊]\n傷害量：[194%]\n霸體破壞量：[403%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]\n\n",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 224%\nSA Damage: 465%\nSG Cost: 40\nCooldown: 12 seconds",
+          "Effect": "[技能資訊]\n傷害量：[224%]\n霸體破壞量：[465%]\n靈魂值消耗量：[40]\n冷卻時間：[12秒]\n\n",
           "RequiredLevel": 24,
           "RequiredSP": 3
         }
       }
     },
     "PowerSlash": {
-      "Name": "Power Slash",
+      "Name": "淬火猛撃",
       "ID": 11,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_PowerSlash.png",
       "Levels": {
         "0": {
-          "Description": "Slashes frontward with great power.",
+          "Description": "滑鼠：添加到技能快捷欄中，輸入對應的快速鍵\n對位正前方的敵人額外攻擊，給予2倍傷害。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，長按對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -405,27 +405,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 455%\nSA Damage: 262%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "[技能資訊]\n傷害量: [455%]\n霸體破壞量: [393%]\nSG 消耗量: [50]\n冷卻時間: [15秒]\n\n",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 478%\nSA Damage: 276%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "[技能資訊]\n傷害量: [478%]\n霸體破壞量: [414%]\nSG 消耗量: [50]\n冷卻時間: [15秒]\n\n",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 535%\nSA Damage: 308%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "[技能資訊]\n傷害量: [535%]\n霸體破壞量: [462%]\nSG 消耗量: [50]\n冷卻時間: [15秒]\n\n",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 592%\nSA Damage: 341%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "[技能資訊]\n傷害量: [592%]\n霸體破壞量: 512%]\nSG 消耗量: [50]\n冷卻時間: [15秒]\n\n",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 683%\nSA Damage: 394%\nSG Cost: 60\nCooldown: 15 seconds",
+          "Effect": "[技能資訊]\n傷害量: [683%]\n霸體破壞量: [591%]\nSG 消耗量: [50]\n冷卻時間: [15秒]\n\n",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -437,7 +437,7 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_LeapAttack.png",
       "Levels": {
         "0": {
-          "Description": "Leap forward and slam the ground, launching the enemies into the air. Hold the skill button to charge the skill and leap further.",
+          "Description": "向前方跳躍後落地，向地面施展重擊。蓄力時間越長，跳躍距離越遠。\n對位於著地位置的敵人額外攻擊，給予1.5倍傷害。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 13,
           "RequiredSP": 0,
@@ -446,27 +446,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 392%\nSA Damage: 629%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [392%]\n霸體破壞量: [629%]\nSG 消耗量: [45]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 13,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 411%\nSA Damage: 660%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [411%]\n霸體破壞量: [660%]\nSG 消耗量: [45]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 460%\nSA Damage: 739%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [460%]\n霸體破壞量: [739%]\nSG 消耗量: [45]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 23,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 509%\nSA Damage: 817%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [509%]\n霸體破壞量: [817%]\nSG 消耗量: [45]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 28,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 588%\nSA Damage: 943%\nSG Cost: 50\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量: [588%]\n霸體破壞量: [943%]\nSG 消耗量: [45]\n冷卻時間: [20秒]\n\n",
           "RequiredLevel": 33,
           "RequiredSP": 3
         }
@@ -478,12 +478,12 @@
     },
     "LeapAttack-ExtraAttack": {
       "Visible": false,
-      "Name": "Extra Attack",
+      "Name": "攻擊次數增加",
       "ID": 13,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_LeapAttack_A.png",
       "Levels": {
         "0": {
-          "Description": "There will be more attacks, increasing hitcount.",
+          "Description": "攻擊次數增加，造成多段攻擊。\n對打擊地點的敵人的傷害量額外增加 150%。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -492,17 +492,17 @@
           }
         },
         "1": {
-          "Effect": "Damage: 102%\nSA Damage: 172%",
+          "Effect": "[特性資訊]\n傷害量增加值：[102%]\n霸體破壞量增加值：[172%]\n\n",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 171%\nSA Damage: 283%",
+          "Effect": "[特性資訊]\n傷害量增加值：[171%]\n霸體破壞量增加值：[283%]\n\n",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 285%\nSA Damage: 470%",
+          "Effect": "[特性資訊]\n傷害量增加值：[285%]\n霸體破壞量增加值：[470%]\n\n",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
@@ -510,12 +510,12 @@
     },
     "LeapAttack-RangeIncrease": {
       "Visible": false,
-      "Name": "Range Increase",
+      "Name": "範圍增加",
       "ID": 14,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_LeapAttack_B.png",
       "Levels": {
         "0": {
-          "Description": "Attack range is increased. Slam impact attack range increased.",
+          "Description": "奮力擊打地面，增加攻擊範圍。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -524,29 +524,29 @@
           }
         },
         "1": {
-          "Effect": "[Additional Effect]\nAttack range is increased",
+          "Effect": "[特性資訊]\n攻擊範圍增加 75% ，傷害量套用125%。\n對打擊地點的敵人的傷害量額外增加 100%。\n",
           "RequiredLevel": 33,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 58%\nSA Damage: 95%\n[Additional Effect]\nAttack range is increased",
+          "Effect": "[特性資訊]\n傷害量增加值：[58%]\n霸體破壞量增加值：[95%]\n攻擊範圍增加 75% ，傷害量套用125%。\n對打擊地點的敵人的傷害量額外增加 100%。\n",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 176%\nSA Damage: 183%\n[Additional Effect]\nAttack range is increased",
+          "Effect": "[特性資訊]\n傷害量增加值：[176%]\n霸體破壞量增加值：[183%]\n攻擊範圍增加 75% ，傷害量套用125%。\n對打擊地點的敵人的傷害量額外增加 100%。\n\n",
           "RequiredLevel": 43,
           "RequiredSP": 2
         }
       }
     },
     "ArenaRush": {
-      "Name": "Arena Rush",
+      "Name": "戰神降臨",
       "ID": 15,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_ArenaRush.png",
       "Levels": {
         "0": {
-          "Description": "Create an enhancing field in a set radius. All party members within the area will have increased damage.",
+          "Description": "在空中召喚異能之劍，插落在地上，生成提高自己和隊員攻擊力的增益光環。 \n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -555,27 +555,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 7%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [100%]\n霸體破壞量: [100%]\n增益效果: 攻擊力增加 [7%]  / 施展者的攻擊傷害量增加 [5%]\n增益持續時間: [20秒]\n增益區域持續時間: [10秒]\nSG 消耗量: [50]\n冷卻時間: [45秒]\n\n",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 9%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [100%]\n霸體破壞量: [100%]\n增益效果: 攻擊力增加 [9%]  / 施展者的攻擊傷害量增加 [7%]\n增益持續時間: [20秒]\n增益區域持續時間: [10秒]\nSG 消耗量: [50]\n冷卻時間: [45秒]\n\n\n",
           "RequiredLevel": 22,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 12%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [100%]\n霸體破壞量: [100%]\n增益效果: 攻擊力增加 [12%]  / 施展者的攻擊傷害量增加 [9%]\n增益持續時間: [20秒]\n增益區域持續時間: [10秒]\nSG 消耗量: [50]\n冷卻時間: [45秒]\n\n\n",
           "RequiredLevel": 27,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 15%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [100%]\n霸體破壞量: [100%]\n增益效果: 攻擊力增加 [15%]  / 施展者的攻擊傷害量增加 [12%]\n增益持續時間: [20秒]\n增益區域持續時間: [10秒]\nSG 消耗量: [50]\n冷卻時間: [45秒]\n\n\n",
           "RequiredLevel": 32,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 100%\nSA Damage: 100%\n[Buff Area]\nBuff Effect: Attack Increase by 20%\nBuff Duration: 20 seconds\nBuff Area Duration: 10 seconds\nSG Cost: 50\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [100%]\n霸體破壞量: [100%]\n增益效果: 攻擊力增加 [20%]  / 施展者的攻擊傷害量增加[15%]\n增益持續時間: [20秒]\n增益區域持續時間: [10秒]\nSG 消耗量: [50]\n冷卻時間: [45秒]\n\n\n",
           "RequiredLevel": 37,
           "RequiredSP": 3
         }
@@ -587,28 +587,28 @@
     },
     "ArenaRush-DurationIncrease": {
       "Visible": false,
-      "Name": "Duration Increase",
+      "Name": "時間增加",
       "ID": 16,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_ArenaRush_A.png",
       "Levels": {
         "0": {
-          "Description": "Area duration increased.",
+          "Description": "靈氣持續時間增加。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Duration: +4 seconds",
+          "Effect": "[特性資訊]\n靈氣持續時間增加值：[4秒]\n\n",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Duration: +6 seconds",
+          "Effect": "[特性資訊]\n靈氣持續時間增加值：[6秒]\n\n",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Duration: +9 seconds",
+          "Effect": "[特性資訊]\n靈氣持續時間增加值：[9秒]\n\n",
           "RequiredLevel": 47,
           "RequiredSP": 2
         }
@@ -616,12 +616,12 @@
     },
     "ArenaRush-KnockOut": {
       "Visible": false,
-      "Name": "Knock Out",
+      "Name": "暈眩",
       "ID": 17,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_ArenaRush_B.png",
       "Levels": {
         "0": {
-          "Description": "All hit enemies will be stunned for a brief moment.",
+          "Description": "給命中的敵人造成眩暈效果。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -630,29 +630,29 @@
           }
         },
         "1": {
-          "Effect": "Stun Duration: 1 second",
+          "Effect": "[特性資訊]\n減益效果：眩暈\n減益持續時間：[1秒]\n\n",
           "RequiredLevel": 37,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stun Duration: 2 seconds",
+          "Effect": "[特性資訊]\n減益效果：眩暈\n減益持續時間：[2秒]\n\n",
           "RequiredLevel": 43,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stun Duration: 3 seconds",
+          "Effect": "[特性資訊]\n減益效果：眩暈\n減益持續時間：[3秒]\n\n",
           "RequiredLevel": 47,
           "RequiredSP": 2
         }
       }
     },
     "FlashStep": {
-      "Name": "Flash Step",
+      "Name": "閃光律動",
       "ID": 18,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_FlashStep.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly leap backwards, summoning a sword imbued with supernatural powers and firing it frontward.",
+          "Description": "瞬間向後回避，在劍中注入異能並向前射出。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -661,27 +661,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 468%\nSA Damage: 605%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量：[468%]\n霸體破壞量：[605%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]\n\n",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 491%\nSA Damage: 635%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量：[491%]\n霸體破壞量：[635%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]\n\n",
           "RequiredLevel": 26,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 550%\nSA Damage: 710%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量：[550%]\n霸體破壞量：[710%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]\n\n",
           "RequiredLevel": 31,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 608%\nSA Damage: 768%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量：[608%]\n霸體破壞量：[786%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]\n\n",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 702%\nSA Damage: 907%\nSG Cost: 35\nCooldown: 20 seconds",
+          "Effect": "[技能資訊]\n傷害量：[702%]\n霸體破壞量：[907%]\n靈魂值消耗量：[35]\n冷卻時間：[20秒]\n\n",
           "RequiredLevel": 41,
           "RequiredSP": 3
         }
@@ -691,13 +691,13 @@
       ]
     },
     "CrossStrike": {
-      "Name": "Cross Strike",
+      "Name": "灼熱焚斬",
       "ID": 19,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_CrossStrike.png",
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Slash in a X pattern mid-air and fire strong sword energy. The sword energy will explode on the ground and deal additional damage.",
+          "Description": "在空中的狀態下連續發射強而有力的劍氣",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -706,27 +706,27 @@
           }
         },
         "1": {
-          "Effect": "Damage per slash: 98%\nSA Damage per slash: 74%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "[技能資訊]\n傷害量: 攻撃1回 [98%]\n霸體破壊量: 攻撃1回 [74%]\nSG消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 28,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage per slash: 102%\nSA Damage per slash: 77%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "[技能資訊]\n傷害量: 攻撃1回 [102%]\n霸體破壊量: 攻撃1回 [77%]\nSG消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 32,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage per slash: 114%\nSA Damage per slash: 86%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "[技能資訊]\n傷害量: 攻撃1回 [114%]\n霸體破壊量: 攻撃1回 [86%]\nSG消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 36,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage per slash: 126%\nSA Damage per slash: 96%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "[技能資訊]\n傷害量: 攻撃1回 [126%]\n霸體破壊量: 攻撃1回 [96%]\nSG消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 40,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage per slash: 146%\nSA Damage per slash: 110%\nSG Cost: 45\nCooldown: 30 seconds",
+          "Effect": "[技能資訊]\n傷害量: 攻撃1回 [146%]\n霸體破壊量: 攻撃1回 [110%]\nSG消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 44,
           "RequiredSP": 3
         }
@@ -737,12 +737,12 @@
     },
     "CrossStrike-Blaze": {
       "Visible": false,
-      "Name": "Blaze",
+      "Name": "火焰",
       "ID": 20,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_CrossStrike_A.png",
       "Levels": {
         "0": {
-          "Description": "A burning zone will appear when the sword energy explodes on the ground.",
+          "Description": "劍氣與地面發生摩擦，額外生成火焰地帶。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -751,29 +751,29 @@
           }
         },
         "1": {
-          "Effect": "[Increased Damage]\nDamage: -28%\nSA Damage: -21%\n{Burning Zone}\nDamage: 45%\nSA Damage: 34%",
+          "Effect": "[特性資訊]\n傷害量減少值：每次攻擊[28%]\n霸體破壞量減少值：每次攻擊[21%]\n在3秒內生成火焰地帶。\n火焰地帶傷害量：每秒[45%]\n火焰地帶霸體破壞量：每秒[34%]\n\n",
           "RequiredLevel": 44,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "[Increased Damage]\nDamage: +13%\nSA Damage: +10%\n{Burning Zone}\nDamage: 50%\nSA Damage: 38%",
+          "Effect": "[特性資訊]\n傷害量減少值：每次攻擊[13%]\n霸體破壞量減少值：每次攻擊[10%]\n在3秒內生成火焰地帶。\n火焰地帶傷害量：每秒[50%]\n火焰地帶霸體破壞量：每秒[38%]\n\n",
           "RequiredLevel": 49,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "[Increased Damage]\nDamage: +23%\nSA Damage: +17%\n{Burning Zone}\nDamage: 62%\nSA Damage: 47%",
+          "Effect": "[特性資訊]\n傷害量增加值：每次攻擊[23%]\n霸體破壞量增加值：每次攻擊[17%]\n在3秒內生成火焰地帶。\n火焰地帶傷害量：每秒[62%]\n火焰地帶霸體破壞量：每秒[47%]\n\n",
           "RequiredLevel": 54,
           "RequiredSP": 2
         }
       }
     },
     "WindBreak": {
-      "Name": "Wind Break",
+      "Name": "破空拔刀斬",
       "ID": 21,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_WindBreak.png",
       "Levels": {
         "0": {
-          "Description": "Charge your sword with energy behind your back , then release it. The sword energy flies in a straight line while penetrating enemies.",
+          "Description": "向後收劍，然後拔劍，向前方發出劍氣。\n發射的劍氣穿透敵人，沿著直線飛行。 \n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -782,27 +782,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 466%\nSA Damage: 444%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "[技能資訊]\n傷害量：每次攻擊[466%]\n霸體破壞量：[444%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]\n\n",
           "RequiredLevel": 34,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 489%\nSA Damage: 466%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "[技能資訊]\n傷害量：每次攻擊[489%]\n霸體破壞量：[466%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]\n\n",
           "RequiredLevel": 38,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 548%\nSA Damage: 522%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "[技能資訊]\n傷害量：每次攻擊[548%]\n霸體破壞量：[522%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]\n\n",
           "RequiredLevel": 42,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 606%\nSA Damage: 577%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "[技能資訊]\n傷害量：每次攻擊[605%]\n霸體破壞量：[577%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]\n\n",
           "RequiredLevel": 46,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 699%\nSA Damage: 666%\nSG Cost: 50\nCooldown: 35 seconds",
+          "Effect": "[技能資訊]\n傷害量：每次攻擊[699%]\n霸體破壞量：[666%]\n靈魂值消耗量：[50]\n冷卻時間：[35秒]\n\n",
           "RequiredLevel": 50,
           "RequiredSP": 3
         }
@@ -813,12 +813,12 @@
     },
     "WindBreak-Charge": {
       "Visible": false,
-      "Name": "Charge",
+      "Name": "蓄力",
       "ID": 22,
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_WindBreak_A.png",
       "Levels": {
         "0": {
-          "Description": "Fires multiple charged energy waves. Fires 2 waves with 0.7x the power of an original slash.",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -827,12 +827,12 @@
           }
         },
         "1": {
-          "Effect": "Maximum Waves: 2",
+          "Effect": "[特性資訊]\n通過蓄力，可以額外發射劍氣。\n蓄力時，發射2道劍氣，每道劍氣的威力為原來的0.7倍。\n",
           "RequiredLevel": 50,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Maximum Waves: 3",
+          "Effect": "[特性資訊]\n通過蓄力，可以額外發射劍氣。\n蓄力時，發射2道劍氣，每道劍氣的威力為原來的0.7倍。\n最大蓄力時，發射3個劍氣。\n\n",
           "RequiredLevel": 55,
           "RequiredSP": 1,
           "Preview": {
@@ -847,7 +847,7 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_BladeShower.png",
       "Levels": {
         "0": {
-          "Description": "Throw your sword upwards, summoning a torrential rain of energy swords. Very large AoE.",
+          "Description": "將劍扔向前方天空，生成劍雨風暴，向地面落下無數劍雨，在大範圍內發動強力攻擊。\n\n[操作方法]\n滑鼠：添加到技能快捷欄中，輸入對應的快速鍵",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -856,27 +856,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 1678%\nSA Damage: 1721%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量：[2097%]\n霸體破壞量：[2237%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]\n\n",
           "RequiredLevel": 42,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 1761%\nSA Damage: 1808%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量：[2201%]\n霸體破壞量：[2350%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]\n\n",
           "RequiredLevel": 45,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 1971%\nSA Damage: 2023%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量：[2464%]\n霸體破壞量：[2630%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]\n\n",
           "RequiredLevel": 48,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 2181%\nSA Damage: 2238%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量：[2726%]\n霸體破壞量：[2909%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]\n\n",
           "RequiredLevel": 51,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 2516%\nSA Damage: 2582%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量：[3145%]\n霸體破壞量：[3357%]\n靈魂值消耗量：[75]\n冷卻時間：[45秒]\n\n",
           "RequiredLevel": 54,
           "RequiredSP": 3
         }
@@ -884,7 +884,7 @@
     },
     "SpinCutter-ExtraAttack": {
       "Visible": false,
-      "Name": "Extra Attack",
+      "Name": "追擊",
       "ID": 24,
       "RequireClass": {
         "CompareType": "atleast",
@@ -893,7 +893,7 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_SpinAttack_A.png",
       "Levels": {
         "0": {
-          "Description": "Chase enemies after the spin cutter.",
+          "Description": "[特性資訊: 增加攻擊]\n增加傷害量: [354%]\n增加霸體破壞量: [552%]\n\n追加後續打擊.\n\n[操作方法]\n滑鼠:盤旋劍最後攻擊以後按下 (右鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -902,17 +902,17 @@
           }
         },
         "1": {
-          "Effect": "Damage: 267%\nSA Damage: 138%",
+          "Effect": "[特性資訊: 增加攻擊]\n增加傷害量: [354%]\n增加霸體破壞量: [552%]\n\n",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 294%\nSA Damage: 152%",
+          "Effect": "[特性資訊: 增加攻擊]\n增加傷害量: [407%]\n增加霸體破壞量: [635%]\n\n",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 347%\nSA Damage: 179%",
+          "Effect": "[特性資訊: 增加攻擊]\n增加傷害量: [513%]\n增加霸體破壞量: [801%]\n\n",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -929,7 +929,7 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_FlashStep_A.png",
       "Levels": {
         "0": {
-          "Description": "Attach the small sword to the big one and then throw it.",
+          "Description": "刀子和大劍的結合後，向前方投擲",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -938,17 +938,17 @@
           }
         },
         "1": {
-          "Effect": "Damage: 702%\nSA Damage: 907%",
+          "Effect": "[特性資訊]\n傷害量:[ 1394%]\n霸體破壞量: [975%]\n\n減益: 暈眩 [1.8秒] \n冷卻時間 : [20秒]\n",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 770%\nSA Damage: 1000%",
+          "Effect": "[特性資訊]\n傷害量: [1603%]\n霸體破壞量: [1122%]\n\n減益: 暈眩 [2.4秒] \n冷卻時間 : [20秒]\n",
           "RequiredLevel": 59,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 912%\nSA Damage: 1180%",
+          "Effect": "[特性資訊]\n傷害量:[2021%]\n霸體破壞量: [1414%]\n\n減益: 暈眩 [3.2秒] \n冷卻時間 : [20秒]\n",
           "RequiredLevel": 60,
           "RequiredSP": 2
         }
@@ -965,7 +965,7 @@
       "Assignable": false,
       "Levels": {
         "0": {
-          "Description": "Immediately land then generate a small sword rain on the area around Haru.",
+          "Description": "在空中的狀態下向前方的敵人進行劈砍，同時在附近召喚刀子對附近展開向下丟擲的攻擊\n\n[操作方法]\n鍵盤: 在空中狀態下按一次這個鍵\n(空中的技能會自動排列在快捷鍵中)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -974,27 +974,27 @@
           }
         },
         "1": {
-          "Effect": "Damage: 1678%\nSA Damage: 1721%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [684%]\n霸體破壞量: [960%]\n靈魂值消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Damage: 1761%\nSA Damage: 1808%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [720%]\n霸體破壞量:  [1008%]\n靈魂值消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Damage: 1971%\nSA Damage: 2023%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [786%]\n霸體破壞量:  [1104%]\n靈魂值消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 58,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Damage: 2181%\nSA Damage: 2238%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [888%]\n霸體破壞量: [1248%]\n靈魂值消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 59,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Damage: 2517%\nSA Damage: 2582%\nSG Cost: 75\nCooldown: 45 seconds",
+          "Effect": "[技能資訊]\n傷害量: [1026%]\n霸體破壞量: [1440%]\n靈魂值消耗量: [45]\n冷卻時間: [30秒]\n\n",
           "RequiredLevel": 60,
           "RequiredSP": 3
         }
@@ -1161,13 +1161,13 @@
     },
     "Evasion": {
       "Passive": true,
-      "Name": "Evasion",
+      "Name": "緊急回避",
       "ID": 1004,
       "DefaultLevel": 1,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Evasion.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge to a specified direction.\nDamage is negated during evasion.",
+          "Description": "向指定的方向快速移動\n在緊急迴避的狀態下不會受到任何攻擊\n\n[操作方式]\n鍵盤: \n[1] (移動鍵) + (Shift鍵)\n[2] (移動鍵) 按2次",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1176,7 +1176,7 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 20",
+          "Effect": "[技能資訊]\n耐力消耗量: [20]\n\n",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1184,13 +1184,13 @@
     },
     "Roll": {
       "Passive": true,
-      "Name": "Roll",
+      "Name": "翻滾",
       "ID": 1003,
       "DefaultLevel": 1,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Welter.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up by swiftly rolling in a specified direction.\nDamage is negated during roll.",
+          "Description": "受到敵人的攻擊呈現暈眩狀態時， 朝指定的方向快速翻身起來。\n在翻滾的狀態下不會受到任何攻擊\n\n[操作方式]\n鍵盤: 倒地時 (移動鍵) + (Shift鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1199,17 +1199,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 25",
+          "Effect": "[技能資訊]\n耐力消耗量: [25]\n\n",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 15",
+          "Effect": "[技能資訊]\n耐力消耗量: [15]\n\n",
           "RequiredLevel": 17,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 15\nFaster rolling speed.",
+          "Effect": "[技能資訊]\n耐力消耗量: [15]\n可以翻滾更快\n\n",
           "RequiredLevel": 34,
           "RequiredSP": 2
         }
@@ -1217,13 +1217,13 @@
     },
     "Dash": {
       "Passive": true,
-      "Name": "Dash",
+      "Name": "衝刺",
       "DefaultLevel": 1,
       "ID": 1006,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_Dash.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dash forward.",
+          "Description": "向前快速奔馳\n\n[操作方式]\n鍵盤: (前方移動鍵) 按2次",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1237,7 +1237,7 @@
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Faster dashing Speed",
+          "Effect": "衝刺速度加快",
           "RequiredLevel": 25,
           "RequiredSP": 2
         }
@@ -1245,13 +1245,13 @@
     },
     "RisingAttack": {
       "Passive": true,
-      "Name": "Rising Attack",
+      "Name": "回擊",
       "ID": 1005,
       "DefaultLevel": 1,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_RiseAttack.png",
       "Levels": {
         "0": {
-          "Description": "When downed, get up while attacking nearby enemies.",
+          "Description": "受到敵人的攻擊呈現暈眩狀態時，再受到附近敵人的攻擊時會醒來。\n\n[操作方式]\n鍵盤: 倒地時 (左/右鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1260,17 +1260,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 30\nInvincibility Duration: 1 second",
+          "Effect": "[技能資訊]\n傷害量: [100%]\n耐力消耗量: [30]\n冷卻時間: [15秒]\n技能使用後1秒間會變成無敵狀態\n\n",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "2": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 1 second",
+          "Effect": "[技能資訊]\n傷害量: [100%]\n耐力消耗量: [20]\n冷卻時間: [15秒]\n技能使用後1秒間會變成無敵狀態\n\n",
           "RequiredLevel": 18,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 20\nInvincibility Duration: 3 seconds",
+          "Effect": "[技能資訊]\n傷害量: [100%]\n耐力消耗量: [20]\n冷卻時間: [15秒]\n技能使用後3秒間會變成無敵狀態\n\n",
           "RequiredLevel": 36,
           "RequiredSP": 2
         }
@@ -1278,13 +1278,13 @@
     },
     "DashAttack": {
       "Passive": true,
-      "Name": "Dash Attack",
+      "Name": "衝擊",
       "DefaultLevel": 1,
       "ID": 1008,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Push enemies back with a large swing while dashing.",
+          "Description": "奔跑時，用力揮劍，擊退敵人。 \n攻擊時可以獲得靈魂值。\n連續階段和怪物等級越高，靈魂值獲得量越多。\n\n[操作方法]\n滑鼠：衝鋒時，(點擊左鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1293,7 +1293,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: 116%\nSA Damage: 46%",
+          "Effect": "[技能資訊]\n傷害量：[116%]\n霸體破壞量：[46%] \n\n",
           "RequiredLevel": 0,
           "RequiredSP": 0
         }
@@ -1301,12 +1301,12 @@
     },
     "SpecialEvasion": {
       "Passive": true,
-      "Name": "Special Evasion",
+      "Name": "特殊回避",
       "ID": 1007,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_EvasionAttack.png",
       "Levels": {
         "0": {
-          "Description": "Swiftly dodge to a specific direction while being attacked by an enemy.\nDamage is negated during special evasion.",
+          "Description": "在敵人攻撃時快速移動，在特殊迴避的狀態下不會受到傷害。\n\n[操作方式]\n鍵盤:被命中時 (移動鍵) + (Shift鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1315,17 +1315,17 @@
           }
         },
         "1": {
-          "Effect": "Stamina Cost: 40\nCooldown: 60 seconds",
+          "Effect": "[技能資訊]\n耐力消耗量: [40]\n冷卻時間: [60秒]\n\n",
           "RequiredLevel": 4,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Cost: 40\nCooldown: 50 seconds",
+          "Effect": "[技能資訊]\n耐力消耗量: [40]\n冷卻時間: [50秒]\n\n",
           "RequiredLevel": 21,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Cost: 40\nCooldown: 40 seconds",
+          "Effect": "[技能資訊]\n耐力消耗量: [40]\n冷卻時間: [40秒]\n\n",
           "RequiredLevel": 38,
           "RequiredSP": 2
         }
@@ -1333,12 +1333,12 @@
     },
     "SpecialDashAttack": {
       "Passive": true,
-      "Name": "Special Dash Attack",
+      "Name": "特殊衝擊",
       "ID": 1010,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_DashSmashAttack.png",
       "Levels": {
         "0": {
-          "Description": "Do a spinning jump attack during dash.",
+          "Description": "奔跑時，向前方跳躍後，連續施展迴旋斬。\n攻擊時可以獲得靈魂值。\n連續階段和怪物等級越高，靈魂值獲得量越多。\n\n[操作方法]\n滑鼠：衝鋒時，(點擊右鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
@@ -1347,7 +1347,7 @@
           }
         },
         "1": {
-          "Effect": "Damage: 206%\nSA Damage: 92%\nCooldown: 5 seconds",
+          "Effect": "[技能資訊]\n傷害量：[206%]\n霸體破壞量：[92%]\n冷卻時間：[5秒]\n\n",
           "RequiredLevel": 13,
           "RequiredSP": 1
         }
@@ -1355,38 +1355,38 @@
     },
     "StaminaMastery": {
       "Passive": true,
-      "Name": "Stamina Mastery",
+      "Name": "耐力精通",
       "ID": 1009,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_StaminaMastery.png",
       "Levels": {
         "0": {
-          "Description": "Increases stamina recovery.",
+          "Description": "耐力回復量永久增加",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Stamina Recovery: + 10%",
+          "Effect": "被動效果：耐力回復量增加[10%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Stamina Recovery: + 20%",
+          "Effect": "被動效果：耐力回復量增加[20%]",
           "RequiredLevel": 15,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Stamina Recovery: + 30%",
+          "Effect": "被動效果：耐力回復量增加[30%]",
           "RequiredLevel": 20,
           "RequiredSP": 2
         },
         "4": {
-          "Effect": "Stamina Recovery: + 40%",
+          "Effect": "被動效果：耐力回復量增加[40%]",
           "RequiredLevel": 25,
           "RequiredSP": 2
         },
         "5": {
-          "Effect": "Stamina Recovery: + 50%",
+          "Effect": "被動效果：耐力回復量增加[50%]",
           "RequiredLevel": 30,
           "RequiredSP": 3
         }
@@ -1394,7 +1394,7 @@
     },
     "EternalCombination": {
       "Passive": true,
-      "Name": "Eternal Combination",
+      "Name": "持續鬥爭",
       "ID": 1013,
       "RequireClass": {
         "CompareType": "atleast",
@@ -1403,23 +1403,23 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_SGPassive2.png",
       "Levels": {
         "0": {
-          "Description": "For every 20th combo, increases Attack for 20 seconds.\n(Max Stack: 5)",
+          "Description": "",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Attack: + 150 per stack",
+          "Effect": "達成20 COMBO時在20秒內攻擊力增加150(最多疊加5次)",
           "RequiredLevel": 57,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Attack: + 300 per stack",
+          "Effect": "達成20 COMBO時在20秒內攻擊力增加300(最多疊加5次)",
           "RequiredLevel": 58,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Attack: + 500 per stack",
+          "Effect": "達成20 COMBO時在20秒內攻擊力增加500(最多疊加5次)",
           "RequiredLevel": 59,
           "RequiredSP": 2
         }
@@ -1427,7 +1427,7 @@
     },
     "EndlessStruggle": {
       "Passive": true,
-      "Name": "Endless Struggle",
+      "Name": "無盡鬥爭",
       "ID": 1011,
       "RowSpan": {
         "0": 2,
@@ -1436,23 +1436,23 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_SSword_Skill_SGPassive.png",
       "Levels": {
         "0": {
-          "Description": "Permanently increases Attack and Penetration.",
+          "Description": "攻擊力增加, 防禦力貫通永久增加",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
         },
         "1": {
-          "Effect": "Passive Effect: Attack + 5%, Penetration + 2%",
+          "Effect": "被動效果：攻擊力增加[5%], 防禦力貫通增加[2%]",
           "RequiredLevel": 10,
           "RequiredSP": 1
         },
         "2": {
-          "Effect": "Passive Effect: Attack + 10%, Penetration + 4%",
+          "Effect": "被動效果：攻擊力增加[10%], 防禦力貫通增加[4%]",
           "RequiredLevel": 20,
           "RequiredSP": 1
         },
         "3": {
-          "Effect": "Passive Effect: Attack + 15%, Penetration + 6%",
+          "Effect": "被動效果：攻擊力增加[15%], 防禦力貫通增加[6%]",
           "RequiredLevel": 30,
           "RequiredSP": 2
         }
@@ -1460,14 +1460,14 @@
     },
     "SwordofRevenge": {
       "Passive": true,
-      "Name": "Sword of Revenge",
+      "Name": "復仇之劍",
       "DefaultLevel": 1,
       "ID": 1012,
       "RowSpan": 2,
       "Icon": "../assets/skillicons/Common/Icon_Common_Skill_SoulMastery.png",
       "Levels": {
         "0": {
-          "Description": "Gain SG on hit using normal attacks.\nAutomatically gain SG on fixed intervals.",
+          "Description": "基本攻擊成功時，恢復靈魂值。\n\n每隔一定時間自動恢復靈魂值。",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0
