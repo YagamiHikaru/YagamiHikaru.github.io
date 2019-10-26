@@ -893,7 +893,7 @@
       "Icon": "../assets/skillicons/SoulumSword/Icon_Ssword_Skill_SpinAttack_A.png",
       "Levels": {
         "0": {
-          "Description": "[特性資訊: 增加攻擊]\n增加傷害量: [354%]\n增加霸體破壞量: [552%]\n\n追加後續打擊.\n\n[操作方法]\n滑鼠:盤旋劍最後攻擊以後按下 (右鍵)",
+          "Description": "追加後續打擊.\n\n[操作方法]\n滑鼠:盤旋劍最後攻擊以後按下 (右鍵)",
           "Effect": "",
           "RequiredLevel": 0,
           "RequiredSP": 0,
