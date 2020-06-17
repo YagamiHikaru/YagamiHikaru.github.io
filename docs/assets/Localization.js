@@ -31,8 +31,8 @@
             DefaultCharacterClassName: "Base"
         },
         SkillTree: {
-            CharacterClass: "Class:",
-            CharacterLevel: "Level:",
+            CharacterClass: "覺醒等級:",
+            CharacterLevel: "角色等級:",
             InvestedSP: "Invested SP",
             RemainingSP: "Remaining SP",
             Button_ResetAllSkills: "Reset All Skills",
