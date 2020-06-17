@@ -3,11 +3,11 @@
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Iris_Yuma",
   "AvailableClass": {
     "0": {
-      "Name": "一般",
+      "Name": "侵蝕",
       "Cover": "../assets/images/bg-iris1.png"
     },
     "1": {
-      "Name": "二轉",
+      "Name": "覺醒",
       "Cover": "../assets/images/bg-iris2.png",
       "RequiredLevel": 57
     }
