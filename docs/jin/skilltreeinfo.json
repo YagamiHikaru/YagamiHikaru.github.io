@@ -3,11 +3,11 @@
   "CharacterWikiURL": "https://wiki.soulworkerhq.com/w/Jin_Seipatsu",
   "AvailableClass": {
     "0": {
-      "Name": "一般",
+      "Name": "侵蝕",
       "Cover": "../assets/images/bg-jin1.png"
     },
     "1": {
-      "Name": "二轉",
+      "Name": "覺醒",
       "Cover": "../assets/images/bg-jin2.png",
       "RequiredLevel": 57
     }
